@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <title>Личный кабинет сотрудника - Платформа ПБ</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+    <div id="wrapper">
+        <div id="main">
+            <div class="inner">
+
+                <!-- Шапка -->
+                <header id="header">
+                    <a href="index.html" class="logo"><strong>← На главную</strong></a>
+                    <ul class="icons">
+                        <li style="display: flex; align-items: center; gap: 10px;">
+                            <span>Иванов И.И.</span>
+                            <span style="background:#28a745; color:white; padding:2px 8px; border-radius:12px; font-size:12px;">Активен</span>
+                        </li>
+                        <li><a href="#" class="icon solid fa-sign-out-alt"><span class="label">Выйти</span></a></li>
+                    </ul>
+                </header>
+
+                <!-- Заголовок раздела -->
+                <section id="banner">
+                    <div class="content">
+                        <header>
+                            <h1>Личный кабинет сотрудника</h1>
+                            <p>Обучение и тестирование по пожарной безопасности</p>
+                        </header>
+                        <div class="row">
+                            <div class="col-6 col-12-small">
+                                <h3>Мой прогресс</h3>
+                                <ul>
+                                    <li>Программ изучено: <strong>3/5</strong></li>
+                                    <li>Тестов пройдено: <strong>2/5</strong></li>
+                                    <li>Аттестаций: <strong>1</strong></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-12-small">
+                                <h3>Ближайшие события</h3>
+                                <ul>
+                                    <li>Инструктаж - 15.12.2024</li>
+                                    <li>Тестирование - 18.12.2024</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="image object">
+                        <div style="background:#f8f9fa; border:2px dashed #dee2e6; height:300px; display:flex; align-items:center; justify-content:center; border-radius:5px;">
+                            <div style="text-align:center;">
+                                <i class="icon solid fa-user" style="font-size:48px; color:#6c757d; margin-bottom:20px;"></i>
+                                <p style="color:#6c757d;">Рабочее место сотрудника<br><small>Обучение и тестирование ПБ</small></p>
+                            </div>
+                        </div>
+                    </span>
+                </section>
+
+                <!-- Контентная область -->
+                <section id="content-area">
+                    <header class="major">
+                        <h2>Добро пожаловать в систему обучения</h2>
+                    </header>
+                    <p>Выберите раздел в боковом меню для работы с материалами по пожарной безопасности.</p>
+                    
+                    <div id="dynamic-content">
+                        <div class="box">
+                            <h3>Начало работы</h3>
+                            <p>Для прохождения обучения выберите нужный раздел в меню слева:</p>
+                            <ul>
+                                <li><strong>Инструкция ПБ</strong> - изучение материалов и инструкций</li>
+                                <li><strong>Подпись Электронная</strong> - оформление документов</li>
+                                <li><strong>Практическая часть</strong> - дополнительные материалы</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- Боковая панель с меню -->
+        <div id="sidebar">
+            <div class="inner">
+
+                <!-- Логотип -->
+                <section id="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Логотип Платформа ПБ" style="width:100%; max-width:180px; display:block; margin:0 auto 20px;">
+                    </a>
+                </section>
+
+                <!-- Меню разделов -->
+                <nav id="menu">
+                    <header class="major">
+                        <h2>Обучение</h2>
+                    </header>
+                    <ul>
+                        <!-- Инструкция ПБ -->
+                        <li>
+                            <span class="opener"><i class="icon solid fa-file-alt"></i> Инструкция ПБ</span>
+                            <ul>
+                                <li><a href="#employee-instructions" class="menu-link">Инструкция ПБ</a></li>
+                                <li><a href="#employee-video" class="menu-link">Видео</a></li>
+                                <li><a href="#employee-test" class="menu-link">Тест</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Подпись Электронная -->
+                        <li>
+                            <span class="opener"><i class="icon solid fa-signature"></i> Подпись Электронная</span>
+                            <ul>
+                                <li><a href="#employee-esign" class="menu-link">Подпись Электронная</a></li>
+                                <li><a href="#employee-file" class="menu-link">Файл</a></li>
+                                <li><a href="#employee-access" class="menu-link">Доступ</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Практическая часть -->
+                        <li>
+                            <span class="opener"><i class="icon solid fa-play-circle"></i> Практическая часть</span>
+                            <ul>
+                                <li><a href="#employee-practice" class="menu-link">Практические материалы</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Контакты -->
+                <section>
+                    <header class="major">
+                        <h2>Поддержка</h2>
+                    </header>
+                    <p>Вопросы по обучению:</p>
+                    <ul class="contact">
+                        <li class="icon solid fa-envelope">edu@pb-platform.ru</li>
+                        <li class="icon solid fa-phone">+7 (800) 123-45-67</li>
+                    </ul>
+                </section>
+
+                <footer id="footer">
+                    <p class="copyright">&copy; Платформа ПБ. Демо-версия.</p>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Скрипты -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+    // Скрипт для переключения контента
+    $(document).ready(function() {
+        $('.menu-link').click(function(e) {
+            e.preventDefault();
+            var section = $(this).attr('href').substring(1);
+            var sectionTitles = {
+                'employee-instructions': 'Инструкция по пожарной безопасности',
+                'employee-video': 'Видеоинструктаж',
+                'employee-test': 'Тестирование знаний',
+                'employee-esign': 'Электронная подпись',
+                'employee-file': 'Работа с файлами',
+                'employee-access': 'Доступ к материалам',
+                'employee-practice': 'Практическая часть'
+            };
+            
+            var title = sectionTitles[section] || 'Раздел';
+            
+            $('#content-area header h2').text(title);
+            $('#dynamic-content').html('<div class="box"><p>Содержание раздела <strong>"' + title + '"</strong> будет отображаться здесь.</p><p>В рабочей версии здесь будут соответствующие материалы и функционал.</p></div>');
+        });
+    });
+    </script>
+
+</body>
+</html>

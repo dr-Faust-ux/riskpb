@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <title>Личный кабинет организации - Платформа ПБ</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+    <div id="wrapper">
+        <div id="main">
+            <div class="inner">
+
+                <!-- Шапка -->
+                <header id="header">
+                    <a href="index.html" class="logo"><strong>← На главную</strong></a>
+                    <ul class="icons">
+                        <li style="display: flex; align-items: center; gap: 10px;">
+                        <span>ООО "Огонек"</span>
+                        <span style="background:#28a745; color:white; padding:2px 8px; border-radius:12px; font-size:12px;">Активна</span>
+                        </li>
+                        <li><a href="#" class="icon solid fa-sign-out-alt"><span class="label">Выйти</span></a></li>
+                    </ul>
+                </header>
+
+                <!-- Заголовок раздела -->
+                <section id="banner">
+                    <div class="content">
+                        <header>
+                            <h1>Личный кабинет организации</h1>
+                            <p>Управление пожарной безопасностью</p>
+                        </header>
+                        <div class="row">
+                            <div class="col-6 col-12-small">
+                                <h3>Статистика</h3>
+                                <ul>
+                                    <li>Сотрудников: <strong>24</strong></li>
+                                    <li>Инструктажей проведено: <strong>18</strong></li>
+                                    <li>Предписаний: <strong>1</strong></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-12-small">
+                                <h3>Ближайшие события</h3>
+                                <ul>
+                                    <li>Инструктаж - 15.12.2024</li>
+                                    <li>Проверка СОУЭ - 20.12.2024</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                <!-- Контентная область (будет меняться при выборе раздела) -->
+                <section id="content-area">
+                    <header class="major">
+                        <h2>Добро пожаловать в систему</h2>
+                    </header>
+                    <p>Выберите раздел в боковом меню для работы с системой управления пожарной безопасностью.</p>
+                    
+                    <!-- Здесь будет динамически меняться контент при выборе раздела -->
+                    <div id="dynamic-content">
+                        <div class="box">
+                            <h3>Быстрый старт</h3>
+                            <p>Для начала работы выберите нужный раздел в меню слева:</p>
+                            <ul>
+                                <li><strong>Инструкции ПБ</strong> - управление обучением сотрудников</li>
+                                <li><strong>Для ответственного за ПБ</strong> - планирование и контроль</li>
+                                <li><strong>Практическая часть</strong> - материалы для проведения учений</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- Боковая панель с меню -->
+        <div id="sidebar">
+            <div class="inner">
+
+                <!-- Логотип -->
+                <section id="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Логотип Платформа ПБ" style="width:100%; max-width:180px; display:block; margin:0 auto 20px;">
+                    </a>
+                </section>
+
+                <!-- Меню разделов -->
+                <nav id="menu">
+                    <header class="major">
+                        <h2>Разделы</h2>
+                    </header>
+                    <ul>
+                        <!-- Инструкции ПБ -->
+                        <li>
+                            <span class="opener"><i class="icon solid fa-file-alt"></i> Инструкции ПБ</span>
+                            <ul>
+                                <li><a href="#instructions-programs" class="menu-link">Программы инструктажей</a></li>
+                                <li><a href="#instructions-positions" class="menu-link">Инструктажи по должностям</a></li>
+                                <li><a href="#instructions-completed" class="menu-link">Сотрудники прошедшие инструктаж</a></li>
+                                <li><a href="#instructions-video" class="menu-link">Видео инструктаж</a></li>
+                                <li><a href="#instructions-test" class="menu-link">Тест</a></li>
+                                <li><a href="#instructions-export" class="menu-link">Выгрузить список ознакомленных</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Для ответственного за ПБ -->
+                        <li>
+                            <span class="opener"><i class="icon solid fa-user-shield"></i> Для ответственного за ПБ</span>
+                            <ul>
+                                <li><a href="#pb-schedule" class="menu-link">График проведения инструктажей</a></li>
+                                <li><a href="#pb-sps" class="menu-link">График обслуживания СПС, СОУЭ</a></li>
+                                <li><a href="#pb-aupt" class="menu-link">График обслуживания АУПТ</a></li>
+                                <li><a href="#pb-vpv" class="menu-link">График обслуживания ВПВ</a></li>
+                                <li><a href="#pb-evacuation" class="menu-link">Учения по эвакуации</a></li>
+                                <li><a href="#pb-inspection" class="menu-link">Проверка госпожнадзора</a></li>
+                                <li><a href="#pb-deadline" class="menu-link">Срок по предписанию</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Практическая часть -->
+                        <li>
+                            <span class="opener"><i class="icon solid fa-play-circle"></i> Практическая часть</span>
+                            <ul>
+                                <li><a href="#practice-evacuation" class="menu-link">Видео: учения по эвакуации</a></li>
+                                <li><a href="#practice-instruction" class="menu-link">Видео: практическая часть инструктажа</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Контакты -->
+                <section>
+                    <header class="major">
+                        <h2>Техподдержка</h2>
+                    </header>
+                    <ul class="contact">
+                        <li class="icon solid fa-envelope">support@pb-platform.ru</li>
+                        <li class="icon solid fa-phone">+7 (800) 123-45-67</li>
+                    </ul>
+                </section>
+
+                <footer id="footer">
+                    <p class="copyright">&copy; Платформа ПБ. Демо-версия.</p>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Скрипты -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+    // Скрипт для переключения контента при выборе пункта меню
+    $(document).ready(function() {
+        $('.menu-link').click(function(e) {
+            e.preventDefault();
+            var section = $(this).attr('href').substring(1);
+            var sectionTitles = {
+                'instructions-programs': 'Программы инструктажей',
+                'instructions-positions': 'Инструктажи по должностям',
+                'instructions-completed': 'Сотрудники прошедшие инструктаж',
+                'instructions-video': 'Видео инструктаж',
+                'instructions-test': 'Тестирование',
+                'instructions-export': 'Выгрузка списка ознакомленных',
+                'pb-schedule': 'График проведения инструктажей',
+                'pb-sps': 'Обслуживание СПС, СОУЭ',
+                'pb-aupt': 'Обслуживание АУПТ',
+                'pb-vpv': 'Обслуживание ВПВ',
+                'pb-evacuation': 'Учения по эвакуации',
+                'pb-inspection': 'Проверка госпожнадзора',
+                'pb-deadline': 'Срок по предписанию',
+                'practice-evacuation': 'Видео: учения по эвакуации',
+                'practice-instruction': 'Видео: практическая часть инструктажа'
+            };
+            
+            var title = sectionTitles[section] || 'Раздел';
+            
+            $('#content-area header h2').text(title);
+            $('#dynamic-content').html('<div class="box"><p>Содержание раздела <strong>"' + title + '"</strong> будет отображаться здесь.</p><p>В рабочей версии здесь будет соответствующий функционал и данные.</p></div>');
+        });
+    });
+    </script>
+
+</body>
+</html>
